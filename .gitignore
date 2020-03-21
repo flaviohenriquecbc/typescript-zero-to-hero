@@ -1,5 +1,8 @@
+#vscode files
+.vscode
 
-/node_modules
-/dist
-/.vscode
+# Mac files
 .DS_Store
+
+node_modules/
+dist/
