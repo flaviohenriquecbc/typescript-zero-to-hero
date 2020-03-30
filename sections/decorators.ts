@@ -86,7 +86,7 @@ function Logger(logEntity: string) {
     }
   }
   
-  function Autobind(target: any, name: string, descriptor: PropertyDescriptor) {
+  export function Autobind(target: any, name: string, descriptor: PropertyDescriptor) {
     return {
       configurable: true,
       enumerable: false,
