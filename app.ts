@@ -1,8 +1,6 @@
-/// <reference path="./drag-drop-project/components/project-list.ts" />
-/// <reference path="./drag-drop-project/components/project-input.ts" />
+import { ProjectInput } from './drag-drop-project/components/project-input'
+import { ProjectList } from './drag-drop-project/components/project-list'
 
-namespace App {
-    new ProjectInput()
-    new ProjectList('active')
-    new ProjectList('finished')
-}
+new ProjectInput()
+new ProjectList('active')
+new ProjectList('finished')
