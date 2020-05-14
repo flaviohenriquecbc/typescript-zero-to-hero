@@ -1,10 +1,11 @@
-import { ProjectInput } from './drag-drop-project/components/project-input'
-import { ProjectList } from './drag-drop-project/components/project-list'
+import { Product } from './class-transform/Product.model'
 
-declare const GLOBAL: string
+const p1 = new Product('A book', 10.99)
 
-console.log(GLOBAL)
+console.log(p1.getInformation())
 
-new ProjectInput()
-new ProjectList('active')
-new ProjectList('finished')
+
+const produts = [
+    { title: 'A Carpet', price: 29.99 },
+    { title: 'A Book', price: 10.99 }
+]
